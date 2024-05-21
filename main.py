@@ -65,6 +65,7 @@ class BalanceProcessorApp:
         """
         Run the BalanceProcessorApp to process withdrawals and display results.
         """
+        print("Starting BalanceProcessorApp, Please wait for processing...")
         self.create_dataframes()
         self.process_withdrawals()
         self.show_results()
