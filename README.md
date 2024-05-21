@@ -48,3 +48,7 @@ To run the unit tests, use the following command:
 ```bash
 scripts/test.sh
  ```
+
+## Sample Output
+
+![](/Users/nithishmohan/Desktop/Screenshot 2024-05-21 at 10.44.52 PM.png)
