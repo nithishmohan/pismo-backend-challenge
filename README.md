@@ -26,19 +26,6 @@ Balance Processor is a PySpark application that processes withdrawals from multi
     cd <pismo-backend-challenge>
     ```
 
-2. Create a virtual environment and activate it:
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  
-    ```
-
-3. Install the dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 1. Run the setup script to install dependencies:
@@ -50,8 +37,9 @@ Balance Processor is a PySpark application that processes withdrawals from multi
 2. Run the main application:
 
    ```bash
-   scripts/run.sh balance.csv withdraw.csv
+   scripts/run.sh path_to_balance.csv path_to_withdraw.csv
    ```
+   scripts/run.sh balance.csv withdraw.csv will run the balance processor with sample balance & withdraw csvs added inside the processor. Feel free to use your own seed data. 
 
 ## Running Tests
 
